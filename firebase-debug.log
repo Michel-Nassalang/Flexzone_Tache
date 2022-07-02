@@ -1,0 +1,78 @@
+[debug] [2022-07-02T09:37:58.698Z] ----------------------------------------------------------------------
+[debug] [2022-07-02T09:37:58.700Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Miki_Biboy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-07-02T09:37:58.701Z] CLI Version:   11.2.0
+[debug] [2022-07-02T09:37:58.701Z] Platform:      win32
+[debug] [2022-07-02T09:37:58.701Z] Node Version:  v18.4.0
+[debug] [2022-07-02T09:37:58.702Z] Time:          Sat Jul 02 2022 09:37:58 GMT+0000 (temps universel coordonné)
+[debug] [2022-07-02T09:37:58.702Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-02T09:37:58.786Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-02T09:37:58.787Z] > authorizing via signed-in user (nassalang.michel@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Miki_Biboy\Documents\Genesis\Codex_angular\Flexzone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-07-02T09:38:10.393Z] Using project from CLI flag: flexzone-angular
+[debug] [2022-07-02T09:38:10.396Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/flexzone-angular [none]
+[debug] [2022-07-02T09:38:10.484Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/flexzone-angular
+[debug] [2022-07-02T09:38:10.497Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/flexzone-angular
+    at RetryOperation._fn (C:\Users\Miki_Biboy\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project flexzone-angular. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-07-02T09:38:29.355Z] ----------------------------------------------------------------------
+[debug] [2022-07-02T09:38:29.357Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Miki_Biboy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2022-07-02T09:38:29.358Z] CLI Version:   11.2.0
+[debug] [2022-07-02T09:38:29.358Z] Platform:      win32
+[debug] [2022-07-02T09:38:29.358Z] Node Version:  v18.4.0
+[debug] [2022-07-02T09:38:29.359Z] Time:          Sat Jul 02 2022 09:38:29 GMT+0000 (temps universel coordonné)
+[debug] [2022-07-02T09:38:29.359Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-02T09:38:29.438Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-02T09:38:29.439Z] > authorizing via signed-in user (nassalang.michel@gmail.com)
+[debug] [2022-07-02T09:38:29.443Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2022-07-02T09:38:29.530Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+[debug] [2022-07-02T09:38:29.543Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+    at RetryOperation._fn (C:\Users\Miki_Biboy\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2022-07-02T09:39:06.690Z] ----------------------------------------------------------------------
+[debug] [2022-07-02T09:39:06.692Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Miki_Biboy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-07-02T09:39:06.693Z] CLI Version:   11.2.0
+[debug] [2022-07-02T09:39:06.693Z] Platform:      win32
+[debug] [2022-07-02T09:39:06.693Z] Node Version:  v18.4.0
+[debug] [2022-07-02T09:39:06.694Z] Time:          Sat Jul 02 2022 09:39:06 GMT+0000 (temps universel coordonné)
+[debug] [2022-07-02T09:39:06.695Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-02T09:39:06.861Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-02T09:39:06.864Z] > authorizing via signed-in user (nassalang.michel@gmail.com)
+[debug] [2022-07-02T09:39:06.865Z] [iam] checking project flexzone-angular for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-07-02T09:39:06.871Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/flexzone-angular:testIamPermissions [none]
+[debug] [2022-07-02T09:39:06.872Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/flexzone-angular:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-07-02T09:39:06.973Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/flexzone-angular:testIamPermissions
+[debug] [2022-07-02T09:39:06.975Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/flexzone-angular [none]
+[debug] [2022-07-02T09:39:06.981Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/flexzone-angular
+[debug] [2022-07-02T09:39:06.998Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/flexzone-angular
+    at RetryOperation._fn (C:\Users\Miki_Biboy\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project flexzone-angular. Please make sure the project exists and your account has permission to access it.
